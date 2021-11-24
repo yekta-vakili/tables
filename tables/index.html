@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <table align="center">
+        <tr>
+          <th>نام</th>
+          <td><input type="text" placeholder="name" /></td>
+        </tr>
+        <tr>
+          <th rowspan="2">ایمیل</th>
+          <td><input type="email" placeholder="email" /></td>
+        </tr>
+        <tr>
+          <td><input type="password" placeholder="****" /></td>
+        </tr>
+        <tr>
+          <th>تاریخ تولد</th>
+          <td><input type="date" /></td>
+        </tr>
+        <tr>
+          <th>سن</th>
+          <td><input type="number" value="20" /></td>
+        </tr>
+        <tr>
+          <th>رنگ مورد علاقه</th>
+          <td><input type="color" /></td>
+        </tr>
+        <tr>
+          <th>ماسک میزنی یا نه یره ؟؟</th>
+          <td>
+            <input type="radio" name="mask" />ماسک میزنم 😷
+            <br />
+            <input type="radio" name="mask" />ماسک نمیزنم 😑
+          </td>
+        </tr>
+        <tr>
+          <th>میوه مورد علاقه</th>
+          <td>
+            <input type="checkbox" />🍓
+             <input type="checkbox" />🍑
+            <input type="checkbox" />🥑 
+            <input type="checkbox" />🍇
+          </td>
+        </tr>
+        <tr>
+            <th>کشور</th>
+            <td>
+                <select name="country">
+                    <option value="iran" selected>ایران</option>
+                    <option value="America">آمریکا</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>زندگینامه</th>
+            <td>
+                <textarea placeholder="هرچی میخوای بگو" cols="20" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="نام نویسی"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
